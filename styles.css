@@ -17,5 +17,13 @@ body{
   top: 80px;
   position: relative;
   border-radius: 5px
+ }
 
+#result{
+  height:120px
+
+}
+
+#keyboard {
+height:600px;
 }
