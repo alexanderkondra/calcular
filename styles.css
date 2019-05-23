@@ -20,10 +20,42 @@ body{
  }
 
 #result{
-  height:120px
+  height:130px
+
+}
+#history {
+text-align:right;
+height:5px;
+margin:20px;
+padding-top: 20px;
+font-size:20px
+color:#919191;
+}
+#output{
+  text-align:right;
+  height: 10px;
+  margin: 10px;
+  font-size: 40px;
 
 }
 
 #keyboard {
-height:600px;
+  height: 440px;
+}
+
+.operator, .number, .empty{
+  width: 78px;
+  height: 76px;
+  margin: 1px;
+  float: left;
+  border-radius: 25%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.number, .empty{
+  background-color: #eaedef;
+}
+.number, .operator{
+  cursor: pointer;
 }
