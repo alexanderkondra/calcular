@@ -51,11 +51,15 @@ color:#919191;
   border-radius: 25%;
   border-width: 0;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
 }
 .number, .empty{
   background-color: #eaedef;
 }
 .number, .operator{
   cursor: pointer;
+}
+.operator:focus, .number:focus, .empty:focus
+{
+  outline 0;}
 }
