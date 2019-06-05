@@ -6,7 +6,7 @@ body{
 #container {
   width: 1000px;
   height: 700px;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://cdn.wallpapersafari.com/97/66/Pzp6V1.jpg);
+  /* background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://cdn.wallpapersafari.com/97/66/Pzp6V1.jpg); */
   margin: 40px auto;
 }
 #calculator {
